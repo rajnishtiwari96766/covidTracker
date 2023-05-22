@@ -25,42 +25,44 @@ const Covid=()=> {
    <>
    <section>
 
+<header>
    <h1>🔴 Live</h1>
    <h2>Live covid-19 Tracker</h2>
+</header>
 
-   <ul>
-    <li className='card'>
+   <ul className='main_card'>
+    <ul className='card'>
         <div className='card_main'>
             <div className='card_inner'>
-                <p className='card_name'><span>Our</span>  Country</p>
-                <p className='card_total card_small'>India</p>
+                <p className='card_name'><span>State</span> </p>
+                <p className='card_total card_small'>Gujrat</p>
             </div>
         </div>
-    </li>
-    <li className='card'>
+    </ul>
+    <ul className='card'>
         <div className='card_main'>
             <div className='card_inner'>
                 <p className='card_name'><span>Total</span>  vaccinated</p>
                 <p className='card_total card_small'>{data.vaccinated1}</p>
             </div>
         </div>
-    </li>
-    <li className='card'>
+    </ul>
+    <ul className='card'>
         <div className='card_main'>
             <div className='card_inner'>
                 <p className='card_name'><span>Total</span>  Tested</p>
                 <p className='card_total card_small'>{data.tested}</p>
             </div>
         </div>
-    </li>
-    <li className='card'>
+    </ul>
+    <ul className='card'>
         <div className='card_main'>
             <div className='card_inner'>
                 <p className='card_name'><span>Total</span>  vaccinated2</p>
                 <p className='card_total card_small'>{data.vaccinated2}</p>
             </div>
         </div>
-    </li>
+    </ul>
    </ul>
    </section>
    </>

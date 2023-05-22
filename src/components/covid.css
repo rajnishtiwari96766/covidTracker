@@ -2,21 +2,34 @@
     width: 200px;
     height: 100px;
     background-color: aqua;
-    /* align-items: center; */
     display: flex;
     align-items: center;
     flex-direction: column;
     padding: 10px;
     margin: 10px;
-    /* flex-wrap: ; */
+    border-radius: 15px;
 }
 
-.card{
+.main_card{
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+    flex-wrap: wrap;
 }
 .card_name{
     font-size: larger;
 }
+
+section{
+    width: 100vh;
+    height: 100vh;
+    background-color: beige;
+    left: 50px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
 
